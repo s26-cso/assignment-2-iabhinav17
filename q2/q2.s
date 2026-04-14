@@ -4,6 +4,9 @@ space_str: .string " "
 newline_str: .string "\n"
 
 .text
+.extern malloc
+.extern atoi
+.extern printf
 .globl main
 
 main:
